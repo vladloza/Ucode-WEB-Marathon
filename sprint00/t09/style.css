@@ -1,0 +1,21 @@
+a:any-link[href*="//www"] {
+    color: green;
+}
+a:any-link[target="_blank"]::after {
+    color: coral;
+    content: "\21D2"
+}
+a:any-link[href*="https://"]::before {
+    padding-right: 10px;
+    content:"\00BB";
+}
+a:any-link[href*="http://"]::before {
+    padding-right: 10px;
+    content: "\00D7";
+    color: red;
+}
+a:any-link[href*="/a"]:hover {
+    content: "\2026 last symbol is a";
+    color: coral;
+    font-style: italic;
+}

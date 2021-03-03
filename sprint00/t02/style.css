@@ -1,0 +1,15 @@
+input{
+    color: green;
+    height: 2em;
+    padding: 0px 10px 0px 10px;
+}
+input[type="search"] {
+    width:100%;
+}
+div {
+    width: 100%;
+    display: flex;
+}
+input:hover {
+    color: red;
+}

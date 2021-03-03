@@ -1,0 +1,25 @@
+.day {
+    font-family: 'Lato', sans-serif;
+    height:30px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+
+}
+.day:hover {
+    margin-top: 5px;
+    transition: box-shadow 300ms ease;
+    box-shadow: 0 14px 28px black, 0 10px 10px rgba(0,0,0,0.22);
+}
+.date {
+    text-align: center;
+    color: white;
+    background-color: #62abf5;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.temp {
+    font-weight: 400;
+    text-align: center;
+    font-size: 2em;
+}

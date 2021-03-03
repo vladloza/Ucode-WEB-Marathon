@@ -1,0 +1,44 @@
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-width: 0px 0px 1px 0px;
+}
+tbody td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+#orange_soul {
+    background-color: orange;
+
+}
+#green_time {
+    background-color: green;
+}
+#space {
+    background-color: #4867E0;
+}
+#mind {
+    background-color: gold;
+}
+#reality {
+    background-color: #B4110C;
+}
+#power {
+    background-color: #8913AF;
+}
+#footer {
+    text-align: center;
+    padding: 10px;
+}
