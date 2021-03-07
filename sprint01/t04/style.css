@@ -1,0 +1,41 @@
+section {
+    padding: 20px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+#content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    grid-row-gap: 20px;
+}
+p {
+    margin: 5px;
+}
+#lorem {
+    border: 1px solid black;
+    padding: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.change:nth-child(1) {
+    background-color: red;
+}
+@media (max-width: 320px) {
+    #content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width:768px) {
+    #content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+img {
+    margin: 10px;
+}

@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin: 10em auto;
+    width: 50%;
+    height: 50%;
+}
+img:hover {
+    -moz-transform: rotate(-30deg); /* Для Firefox */
+    -ms-transform: rotate(-30deg); /* Для IE */
+    -webkit-transform: rotate(-30deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-30deg); /* Для Opera */
+    transform: rotate(-30deg);
+}

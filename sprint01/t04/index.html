@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>04</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="head">
+        <h2><a href="#htmlinfo">HTML</a></h2>
+        <h2><a href="#cssinfo">CSS</a></h2>
+        <h2><a href="#protocol">Web Protocols</a></h2>
+    </section>
+    <section id="htmlinfo">
+        <h3>HTML</h3>
+        <h3>Block Elements</h3>
+        <div class="container">
+            <div id="content">
+                <fieldset>
+                <label>div<br>defines a division or a section in an HTML document<br>align, title<br>
+                    &lt;div&gt;...&lt;/div&gt;</label><br>
+                <div id="lorem">
+                    <p>Lorem ipsum</p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label>h1<br>The h1 to h6 tags are used to define<br>HTML headings<br>align<br>
+                    &lt;h1&gt;Title&lt;/h1&gt;</label><br>
+                <h1>Title</h1>
+            </fieldset>
+            <fieldset>
+                <p>footer</p><br><label>Specifies the trailing area(footer) of a document or section<br>---<br>
+                    &lt;footer&gt;content&lt;/footer&gt;</label><br>
+            </fieldset>
+            <fieldset>
+                <p>main</p><label>Specifies the main content of a document<br>---<br>
+                    &lt;main&gt;content&lt;/main&gt;</label><br>
+            </fieldset>
+            <fieldset>
+                <p>fieldset </p><label>is used to group several controls as well as labels<br>---<br>
+                    &lt;fieldset&gt;content&lt;/fieldset&gt;</label><br>
+            </fieldset>
+            <fieldset>
+                <p>legend </p><label>represents a caption for the content of its parent
+                    &lt;fieldset&gt;<br>---<br>
+                    &lt;legend&gt;content&lt;/legend&gt;</label><br>
+                <fieldset>
+                    <legend>Caption</legend>
+                </fieldset>
+            </fieldset>
+            <fieldset>
+                <span>button </span><label>represents a clickable button, used to submit forms or anywhere in a document
+                    for accessible, standard button functionality.<br>---<br>
+                    &lt;button&gt;content&lt;button&gt;</label><br>
+                <button>content</button>
+            </fieldset>
+            <fieldset>
+                <span>form </span><label>represents a document section containing interactive controls for submitting
+                    information.<br>---<br>
+                    &lt;form&gt;content&lt;form&gt;</label><br>
+            </fieldset>
+            <fieldset>
+                <span>textarea</span><label> element represents a multi-line plain-text editing control<br>---<br>
+                    &lt;textarea&gt;content&lt;textarea&gt;</label><br>
+                <textarea name="test" cols="30" rows="3" placeholder="input text"></textarea>
+            </fieldset>
+            <fieldset>
+                <span>ol</span><label> represents an ordered list of items — typically rendered as a numbered
+                    list.<br>---<br>
+                    &lt;ol&gt;&lt;li&gt;content&lt;&lt;/li&gt;ol&gt;</label><br>
+                <ol>
+                    <li>List element</li>
+                </ol>
+            </fieldset>
+        </div>
+        </div>
+    </section>
+    <section id="cssinfo">
+        <h3>
+            CSS style
+        </h3>
+        <div class="container">
+            <fieldset>
+                <label>
+                    <span>text-align</span> property specifies the horizontal alignment of text in an element.<br>
+                    h3 { text-align: center; }<br>
+                </label>
+                <h3>Text</h3>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <span>text-align</span> property specifies the horizontal alignment of text in an element.<br>
+                    h3 { text-align: center; }<br>
+                </label>
+                <h3 class="change">Text</h3>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <span>box-shadow</span> property attaches one or more shadows to an element.<br>
+                    div { box-shadow: 5px 10px #888888; }<br>
+                </label>
+            </fieldset>
+        </div>
+    </section>
+    <section id="protocol">
+        <h3>Web Protocol</h3>
+        <div id="content">
+            <fieldset>
+            <legend>Description</legend>
+            <label>In networking, a communications protocol or network protocol is the specification of a set of rules for a particular type of communication.
+
+                Different protocols often describe different aspects of a single communication; taken together, these form a protocol stack. The terms "protocol" and "protocol stack" also refer to the software that implements a protocol.
+                
+                Most recent protocols are assigned by the IETF for internet communications, and the IEEE, or the ISO organizations for other types. The ITU-T handles telecommunications protocols and formats.
+                
+                Index page for network protocols and protocol layers, categorised by the nearest matching layers of the OSI seven layer model.
+                
+                Systems engineering principles have been applied to design network protocols.
+                
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>HTTP</legend>
+            <label>HTTP is the protocol used to transmit all data present on the World Wide Web. This includes text, multimedia and graphics. It is the protocol used to transmit HTML, the language that makes all the fancy decorations in your browser. It works upon TCP/IP.</label>
+        </fieldset>
+        <fieldset>
+            <legend>HTTPS</legend>
+            <label>Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.</label><br>
+            <img src="assets/images/http-vs-https.png" alt="http-vs-https">
+        </fieldset>
+        <fieldset>
+            <legend>DNS</legend>
+            <label>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.</label><br>
+            <img src="assets/images/dns.png" alt="dns">
+        </fieldset>
+        <fieldset>
+            <legend>How to determine IP</legend>
+            <label>First, click on the Apple icon in the top-left corner of your desktop and open System Preferences. Then, click on Network. Find your connection type—wifi or Ethernet—and click on it. (It should have a green dot if it’s active.)
+
+                Look to the right, and you’ll see a sentence that looks like “...is connected to ..... and has the IP address...” The number that follows is your laptop’s IP address.</label><br>
+        </fieldset>
+    </div>
+    </section>
+</body>
