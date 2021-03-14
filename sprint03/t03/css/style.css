@@ -1,0 +1,19 @@
+.buttons {
+    display: flex;
+}
+#fly {
+    display: none;
+}
+#fight {
+    display: none;
+}
+#transform{
+    display: auto;
+}
+#clark {
+    display: flex;
+}
+#super{
+    display: none;
+    width: 400px;
+}

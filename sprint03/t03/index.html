@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 id="head">Human</h1>
+        <img id="clark" src="assets/images/Clark_kent.jpeg"><img>
+        <img id="super" src="assets/images/superman.jpg"><img>
+        <div>
+            <p>First name: Clark</p>
+            <p>Last name: Kent</p>
+            <p>Gender: male</p>
+            <p>Age: 79</p>
+            <p>
+                <span>Calories:</span>
+                <span id="calories"></span>
+            </p>
+            <p>
+                <span>Status:</span>
+                <span id="status">-</span>
+            </p>
+        </div>
+        <div class="buttons">
+            <input type="button" value="Sleep" onclick="superman.sleepFor()">
+            <input type="button" value="Feed" onclick="superman.feed()">
+            <input type="button" id="fly" value="Fly" onclick="superman.fly()">
+            <input type="button" id="fight" value="Fight with evil" onclick="superman.fightWithEvil()">
+            <input type="button" id="transform" value="Turn into superhero" onclick="superman = turnIntoSuperhero(superman)">
+        </div>
+        <script src ="js/script.js"></script>
+    </body>
+</html>
