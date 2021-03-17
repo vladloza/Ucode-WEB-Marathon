@@ -1,0 +1,38 @@
+#container {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 30px;
+}
+img { 
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+#film-list {
+    border-right: 2px solid white;
+    padding: 30px;
+}
+#film-info {
+    padding: 30px;
+}
+#actors {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.actor {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+}
+.chosen {
+    border-left: 2px solid rgb(66, 66, 194);
+}
+.film-name {
+    padding: 20px;
+}
