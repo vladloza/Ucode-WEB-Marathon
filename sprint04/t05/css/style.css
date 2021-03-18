@@ -1,13 +1,23 @@
 .block {
     width: 100px;
     height: 100px;
+    margin: 25px;
     background-color: brown;
     transform: rotate(45deg);
     padding: 20px;
+    position: absolute;
 }
-/* .block:nth-child(1) { background-color: red;}
+.block:nth-child(1) { background-color: red;}
 .block:nth-child(2) { background-color: rgb(21, 21, 176);}
 .block:nth-child(3) { background-color: rgb(19, 135, 19);}
 .block:nth-child(4) { background-color: darkviolet;}
 .block:nth-child(5) { background-color: palevioletred;}
-.block:nth-child(6) { background-color: rgb(98, 164, 146);} */
+.block:nth-child(6) { background-color: rgb(98, 164, 146);}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nomove{
+    border: 2px dashed black;
+}

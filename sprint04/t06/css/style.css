@@ -1,0 +1,16 @@
+img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.view {
+    background-color: red;
+    border-radius: 50px;
+    padding: 20px;
+    position: fixed;
+    right: 5px;
+}
+.loaded {
+    display:inline;
+}

@@ -1,41 +1,30 @@
-var ball = document.getElementById('ball');
+let f
+let block
+document.addEventListener('mouseup', () => {
+    f = false
+});
+document.addEventListener('mousemove', function (event) {
+    if (f) {
+        block.style.left = (event.clientX - 100) + "px"
+        block.style.top = (event.clientY - 100) + "px"
+    }
+});
 
-ball.onmousedown = function(e) {
-
-  var coords = getCoords(ball);
-  var shiftX = e.pageX - coords.left;
-  var shiftY = e.pageY - coords.top;
-
-  ball.style.position = 'absolute';
-  document.body.appendChild(ball);
-  moveAt(e);
-
-  ball.style.zIndex = 1000; // над другими элементами
-
-  function moveAt(e) {
-    ball.style.left = e.pageX - shiftX + 'px';
-    ball.style.top = e.pageY - shiftY + 'px';
-  }
-
-  document.onmousemove = function(e) {
-    moveAt(e);
-  };
-
-  ball.onmouseup = function() {
-    document.onmousemove = null;
-    ball.onmouseup = null;
-  };
-
+function moveDiamond(id) {
+    if (!id.classList.contains("nomove")) {
+        block = id
+        f = true;
+    }
 }
 
-ball.ondragstart = function() {
-  return false;
-};
+const listDiamond = document.getElementsByClassName('block');
 
-function getCoords(elem) {   // кроме IE8-
-  var box = elem.getBoundingClientRect();
-  return {
-    top: box.top + pageYOffset,
-    left: box.left + pageXOffset
-  };
+
+let clicked = function(id){
+    if (document.getElementById(id).classList.contains('nomove')){
+        document.getElementById(id).classList.remove('nomove');
+    }
+    else {
+        document.getElementById(id).classList.add('nomove');
+    }
 }

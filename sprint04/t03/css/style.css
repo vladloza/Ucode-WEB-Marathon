@@ -3,3 +3,8 @@ input[type="button"] {
     height: 500px;
     position: absolute;
 }
+img {
+    height: 500px;
+    width: 500px;
+    margin: 0px 50px;
+}
