@@ -1,0 +1,22 @@
+table {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+td {
+    background-color: lightgrey;
+    padding: 20px;
+}
+#notification {
+    float:right;
+    background-color: gray;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 250px;
+}
+th {
+    background-color: red;
+    padding: 20px;
+}
