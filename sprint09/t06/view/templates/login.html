@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+            <title>Registration</title>
+            <meta name="description"content="t01. Turn around...">
+            <link rel="stylesheet" href="../templates/style/style.css">
+    </head>
+    <body>
+        <a href="/t06/view/templates/registration.html"><button class="active">Register</button></a>
+        <button class="disabled" disabled>Log in</button>
+        <a href="/t06/view/templates/reminder.html"><button class="active">Remind password</button></a>
+        <form action="/t06/view/authorization.php" name="LogIn" class="hide" method="POST">
+            <h1>Log in</h1>
+            <p><input autofocus required type="text" name="login" placeholder="login"></p>
+            <p><input required type="password" name="password" placeholder="password"></p>
+            <input type="submit" name="register" value="SEND">
+        </form>
+    </body>
